@@ -14,7 +14,7 @@ public class TreasureHunt {
 		
 		do {
 			
-			Pirate.speak("Enter island name: ");
+			Pirate.speak("Enter island name (Nassau, Havana, St Kitts)");
 			
 			userInput = in.nextLine();
 			
@@ -25,7 +25,7 @@ public class TreasureHunt {
 					if ( pirate.getTreasure(pirate.search(userInput)) ) {
 						
 						Pirate.speak("Found treasure on: " + userInput);
-						Pirate.speak("Coins in purse : " + pirate.totalCoins());
+						Pirate.speak("Coins in purse: " + pirate.totalCoins());
 						
 					} else {
 						
