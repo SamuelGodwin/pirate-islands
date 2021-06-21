@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class TreasureHunter {
+public class TreasureHunt {
 
 	public static void main(String[] args) {
 	
